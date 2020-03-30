@@ -10,7 +10,21 @@ export class Tab1Page implements OnInit {
   constructor() {}
   ngOnInit(){
 
-    console.log('ngOnInit en tab1');
+  let numero = 10;
+
+  debugger;
+
+  numero += 10;
+
+  debugger;
+
+  numero *= 2;
+
+  debugger;
+
+  numero -= 10;
+
+  console.log({numero});
 
   }
 }
