@@ -6,23 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page implements OnInit {
+  
 
   constructor() {}
   ngOnInit(){
 
-  let numero = 10;
-
-  debugger;
-
-  numero += 10;
-
-
-  numero *= 2;
-
-
-  numero -= 10;
-
-  console.log({ numero });
-
   }
+
+
 }

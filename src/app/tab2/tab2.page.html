@@ -1,20 +1,19 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <app-header></app-header>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" padding>
 
-  <h2>Hola Mundo</h2>
-
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+    <ion-toolbar collapse="condense">
+      <ion-buttons slot="start">
+        <ion-back-button Text="Volver" defaultHref=""></ion-back-button>
+      </ion-buttons>
+      <ion-title size="medium">Services</ion-title>
     </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+
+  <app-services></app-services>
+
 </ion-content>
